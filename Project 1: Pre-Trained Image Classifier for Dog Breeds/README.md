@@ -150,11 +150,6 @@ Percentage Stats:
 **Jack Sechler**  
 [GitHub Repository](https://github.com/jsech3/Udacity-AI-ProgrammingPython)
 
-## 📝 Notes
-
-- All code and outputs are located in the `data/` folder
-- This README lives in the Project 1: Pre-Trained Image Classifier for Dog Breeds folder (same level as `data/`)
-
 ## 📄 License
 
 This project is part of the Udacity AI Programming with Python Nanodegree program.
