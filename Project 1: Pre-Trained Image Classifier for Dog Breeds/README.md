@@ -1,6 +1,6 @@
 # 🐶 Dog Breed Classifier – Udacity AI Programming with Python Project
 
-This project is part of the Udacity AI Programming with Python Nanodegree. It uses a pre-trained Convolutional Neural Network (CNN) to classify pet images as either dogs or not-dogs, and for dog images, it predicts the breed. The goal is to evaluate three CNN architectures—**ResNet**, **AlexNet**, and **VGG**—in terms of accuracy and runtime.
+This project is part of the Udacity AI Programming with Python Nanodegree. It uses a pre-trained Convolutional Neural Network (CNN) to classify pet images as either dogs or not-dogs, and for dog images, it predicts the breed. The goal is to evaluate three CNN architectures: **ResNet**, **AlexNet**, and **VGG**, in terms of accuracy and runtime.
 
 ---
 
