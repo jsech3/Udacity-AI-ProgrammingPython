@@ -75,19 +75,21 @@ sh data/run_models_batch_uploaded.sh
 
 ### Performance on Udacity Pet Images Dataset
 
-| Architecture | % Match | % Correct Dogs | % Correct Breed | % Correct Not-a-Dog |
-|--------------|---------|----------------|-----------------|---------------------|
-| ResNet       | 82.5%   | 100.0%         | 90.0%           | 90.0%               |
-| AlexNet      | 75.0%   | 100.0%         | 80.0%           | 90.0%               |
-| VGG          | 87.5%   | 100.0%         | 93.3%           | 100.0%              |
+| Architecture | % Match | % Correct Dogs | % Correct Breed | % Correct Not-a-Dog | Runtime     |
+|--------------|---------|----------------|-----------------|---------------------|-------------|
+| ResNet       | 82.5%   | 100.0%         | 90.0%           | 90.0%               | 00:00:12    |
+| AlexNet      | 75.0%   | 100.0%         | 80.0%           | 90.0%               | 00:00:07    |
+| VGG          | 87.5%   | 100.0%         | 93.3%           | 100.0%              | 00:00:35    |
 
 ### Performance on Custom Uploaded Images
 
-| Model   | Dog Accuracy | Breed Accuracy | Not-a-Dog Accuracy |
-|---------|--------------|----------------|---------------------|
-| ResNet  | 100%         | 0%             | 50%                 |
-| AlexNet | 100%         | 0%             | 100%                |
-| VGG     | 100%         | 0%             | 50%                 |
+| Model   | Dog Accuracy | Breed Accuracy | Not-a-Dog Accuracy | Runtime     |
+|---------|--------------|----------------|---------------------|-------------|
+| ResNet  | 100%         | 0%             | 50%                 | 00:00:02    |
+| AlexNet | 100%         | 0%             | 100%                | 00:00:01    |
+| VGG     | 100%         | 0%             | 50%                 | 00:00:10    |
+
+****⚠️Breed accuracy is 0% for all models*** on the uploaded images not because the classifier misidentified the breed, but because the filenames (`Dog_01.jpg`, `Dog_02.jpg`) were too generic. The pet label extracted was just `"dog"`, which doesn't match the more specific classifier output like `"doberman, doberman pinscher"`. This is expected in this project, unless filenames include the specific breed name (e.g., `doberman_01.jpg`).
 
 ## 🧪 Custom Image Testing Findings
 
