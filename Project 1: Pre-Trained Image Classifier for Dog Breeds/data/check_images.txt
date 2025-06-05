@@ -4,11 +4,9 @@ Questions regarding Uploaded Image Classification:
 
 Answer: Yes, all three models classified Dog_01.jpg as "doberman, doberman pinscher".
 
-
 2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
 
 Answer: Yes, all models classified both Dog_01.jpg and Dog_02.jpg as "doberman, doberman pinscher".
-
 
 3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
 
