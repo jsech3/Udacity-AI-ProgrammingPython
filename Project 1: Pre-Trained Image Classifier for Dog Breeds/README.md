@@ -52,7 +52,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install torch torchvision pillow
 ```
 
-## 🚀 Run the Classifier
+## Run the Classifier
 
 ### Single Model Test
 ```bash
@@ -91,7 +91,7 @@ sh data/run_models_batch_uploaded.sh
 
 ⚠️ ***The reason breed accuracy is 0% for all models on the uploaded images is because the filenames (Dog_01.jpg, Dog_02.jpg) were too generic. The label pulled from the filename was just "dog", so even though the model correctly predicted "doberman, doberman pinscher", it didn’t count as a match. This is expected unless you include the specific breed name in the filename (like doberman_01.jpg).***
 
-## 🧪 Custom Image Testing Findings
+## Custom Image Testing Findings
 
 I tested four of my own images in the `uploaded_images/` folder:
 
@@ -107,7 +107,7 @@ I tested four of my own images in the `uploaded_images/` folder:
 - The sandwich was misclassified by ResNet and VGG as a hot dog
 - AlexNet correctly identified the sandwich as a "french loaf" (not a dog)
 
-## 🧪 Questions regarding Uploaded Image Classification:
+## Questions regarding Custom Uploaded Image Classification:
 
 ### 1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
 
@@ -138,7 +138,7 @@ I tested four of my own images in the `uploaded_images/` folder:
 | `calculates_results_stats.py` | Calculates performance metrics |
 | `print_results.py` | Outputs performance statistics |
 
-## 📅 Sample Output
+## Sample Output
 
 ```
 *** Results Summary for CNN Model Architecture: VGG ***
@@ -155,7 +155,7 @@ Percentage Stats:
 ** Total Elapsed Runtime: 0:00:35
 ```
 
-## 🏆 Conclusion
+## Conclusion
 
 **VGG had the best overall performance** with 87.5% match accuracy and 93.3% correct breed identification, making it the most reliable model for this task. However, AlexNet was fastest and correctly classified the custom object image as non-dog, showing its strength in real-world edge cases.
 
@@ -173,6 +173,7 @@ Percentage Stats:
 ## 📄 License
 
 This project is part of the Udacity AI Programming with Python Nanodegree program.
+
 ## ✅ Notes
 
 * All code and outputs are located in the `data/` folder.
