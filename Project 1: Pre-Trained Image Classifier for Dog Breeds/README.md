@@ -89,7 +89,7 @@ sh data/run_models_batch_uploaded.sh
 | AlexNet | 100%         | 0%             | 100%                | 00:00:01    |
 | VGG     | 100%         | 0%             | 50%                 | 00:00:10    |
 
-****⚠️Breed accuracy is 0% for all models*** on the uploaded images not because the classifier misidentified the breed, but because the filenames (`Dog_01.jpg`, `Dog_02.jpg`) were too generic. The pet label extracted was just `"dog"`, which doesn't match the more specific classifier output like `"doberman, doberman pinscher"`. This is expected in this project, unless filenames include the specific breed name (e.g., `doberman_01.jpg`).
+***⚠️Breed accuracy is 0% for all models*** on the uploaded images not because the classifier misidentified the breed, but because the filenames (`Dog_01.jpg`, `Dog_02.jpg`) were too generic. The pet label extracted was just `"dog"`, which doesn't match the more specific classifier output like `"doberman, doberman pinscher"`. This is expected in this project, unless filenames include the specific breed name (e.g., `doberman_01.jpg`).
 
 ## 🧪 Custom Image Testing Findings
 
