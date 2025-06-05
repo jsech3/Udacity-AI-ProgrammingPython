@@ -155,7 +155,7 @@ Percentage Stats:
 
 ## 🏆 Conclusion
 
-**VGG performed best overall** with the highest match percentage (87.5%) and breed accuracy (93.3%), making it the recommended model for this dog breed classification task. While all models achieved perfect dog detection on the standard dataset, VGG's superior breed identification capabilities and perfect not-a-dog classification make it the clear winner.
+**VGG had the best overall performance** with 87.5% match accuracy and 93.3% correct breed identification, making it the most reliable model for this task. However, AlexNet was fastest and correctly classified the custom object image as non-dog, showing its strength in real-world edge cases.
 
 **Key Takeaways:**
 - All models excel at distinguishing dogs from non-dogs
