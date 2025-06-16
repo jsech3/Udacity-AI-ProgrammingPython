@@ -1,0 +1,12 @@
+# Exclude large files and virtual environments
+venv/
+*/venv/
+**/venv/
+*.pth
+**/checkpoints/
+**/checkpoints_vgg16/
+flowers/
+*/flowers/
+**/__pycache__/
+*.pyc
+.DS_Store
