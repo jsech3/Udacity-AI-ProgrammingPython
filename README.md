@@ -7,7 +7,7 @@ This repository contains both required projects for Udacity's AI Programming wit
 ## ✅ Project 1: Use a Pre-trained Image Classifier to Identify Dog Breeds
 
 **Status:** Completed  
-**Folder:** [Project 1: Pre-Trained Image Classifier for Dog Breeds](./project1-dog-breed-classifier)
+**Folder:** [Project 1: Pre-Trained Image Classifier for Dog Breeds](https://github.com/jsech3/Udacity-AI-ProgrammingPython/tree/main/Project%201%3A%20Pre-Trained%20Image%20Classifier%20for%20Dog%20Breeds)
 
 ### Overview
 Developed a Python-based command-line tool that uses a pre-trained CNN to:
@@ -22,20 +22,20 @@ Developed a Python-based command-line tool that uses a pre-trained CNN to:
 
 ---
 
-## 🎯 Project 2: Create Your Own Image Classifier
+## ✅ Project 2: Create Your Own Image Classifier
 
-**Status:** ✅ Completed  
-**Folder:** [Project 2: Image Classifier for 102 Flower Dataset](./project2-flower-classifier)
+**Status:** Completed  
+**Folder:** [Project 2: Image Classifier Development & Testing](https://github.com/jsech3/Udacity-AI-ProgrammingPython/tree/main/Project%202%3A%20Image%20Classifier%20Development%20%26%20Testing)
 
 ### Overview
 Built a deep learning image classifier using PyTorch and transfer learning on the 102-category flower dataset.
 
 ### Key Components
-- `train.py`: Trains a new model using a specified architecture (VGG16, etc.), with GPU support and checkpoint saving  
+- `train.py`: Trains a new model using a specified architecture (e.g., VGG16), with GPU support and checkpoint saving  
 - `predict.py`: Loads a saved checkpoint and predicts the top K most likely flower categories from a given image  
-- Transfer learning with pre-trained models and custom classifier heads  
-- Utilized `argparse` for CLI input flexibility (e.g. hidden units, epochs, GPU toggle)  
-- Final model achieves high accuracy on validation and test sets  
+- Transfer learning with pre-trained models and a custom classifier head  
+- Configurable CLI inputs (e.g., hidden units, learning rate, number of epochs, GPU toggle)  
+- Model validation and testing for performance evaluation  
 
 ---
 
